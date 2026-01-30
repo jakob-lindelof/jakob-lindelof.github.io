@@ -2,22 +2,22 @@
   background-image: linear-gradient(
     to bottom right,
     rgba(0, 0, 56, 150),
-    rgba(0, 0, 140, 150)
+    #083c5d
   );
   height: 80px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 }
 .header-left {
-  font-family: Fira Sans;
+  font-family:
+    Fira Sans,
+    Arial;
   color: white;
   font-size: 24px;
 }
@@ -32,7 +32,9 @@
 .home-button,
 .projects-button,
 .contact-button {
-  font-family: Fira Sans;
+  font-family:
+    Fira Sans,
+    Arial;
   font-size: 20px;
   background-color: rgba(22, 22, 172, 0);
   color: white;
