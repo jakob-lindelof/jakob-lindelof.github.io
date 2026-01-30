@@ -1,0 +1,26 @@
+.introduction {
+  background-image: linear-gradient(to left, rgb(0, 0, 70), rgb(0, 0, 30));
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border: solid;
+}
+.headshot {
+  border-radius: 250px;
+  height: 500px;
+  margin-left: 15%;
+  margin-right: 20px;
+  border: solid;
+}
+
+.introduction .name {
+  color: white;
+  font-size: 72px;
+  border: solid;
+  margin: 0;
+  white-space: nowrap;
+}

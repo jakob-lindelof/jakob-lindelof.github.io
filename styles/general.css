@@ -1,4 +1,15 @@
 body {
   margin: 0;
-  padding-top: 80px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 255),
+    rgba(20, 20, 30, 255)
+  );
+  min-height: 100vh;
+}
+
+p {
+  font-family:
+    Fira Sans,
+    Arial;
 }
